@@ -27,7 +27,7 @@ export default function Footer() {
               by Z Square Hospitality
             </p>
             <p className="text-white/50 text-sm leading-relaxed max-w-sm">
-              A boutique hill-station retreat in Vagamon, Kerala —
+              A boutique hill-station retreat in abcd city, Kerala —
               where misty meadows meet warm hospitality and sustainable luxury.
             </p>
           </div>

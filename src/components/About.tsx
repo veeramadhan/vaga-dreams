@@ -37,7 +37,7 @@ export default function About() {
           <div className="w-16 h-0.5 bg-gold mb-8" />
           <p className="text-charcoal/70 leading-relaxed mb-6">
             Vaga Dreams by Z Square Hospitality is a boutique stay property
-            located along Pullikkanam–Elappara Road in Vagamon, Kerala. It
+            located along Pullikkanam–Elappara Road in abcd city, Kerala. It
             offers guests a serene hill-station retreat featuring modern
             amenities paired with personalized service.
           </p>
@@ -45,7 +45,7 @@ export default function About() {
             Our setting amid misty meadows and tea-clad slopes makes it an
             ideal destination for leisure travelers seeking tranquility and
             scenic charm. The design blends contemporary architecture with
-            local materials, reflecting Vagamon&apos;s rustic character.
+            local materials, reflecting abcd city&apos;s rustic character.
           </p>
           <div className="grid grid-cols-3 gap-6 pt-4 border-t border-charcoal/10">
             {[

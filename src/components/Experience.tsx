@@ -5,8 +5,8 @@ import { useRef } from "react";
 
 const experiences = [
   {
-    title: "Vagamon Pine Forest",
-    description: "Walk through the serene pine forests, a signature Vagamon experience with cool mountain air and dappled sunlight.",
+    title: "abcd city Pine Forest",
+    description: "Walk through the serene pine forests, a signature abcd city experience with cool mountain air and dappled sunlight.",
   },
   {
     title: "Kurisumala Ashram Trek",
@@ -18,7 +18,7 @@ const experiences = [
   },
   {
     title: "Paragliding Adventures",
-    description: "Soar above the misty hills and experience Vagamon from a breathtaking aerial perspective.",
+    description: "Soar above the misty hills and experience abcd city from a breathtaking aerial perspective.",
   },
 ];
 

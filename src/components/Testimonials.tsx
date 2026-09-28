@@ -13,13 +13,13 @@ const testimonials = [
   {
     name: "Rahul Menon",
     location: "Kochi",
-    text: "Best hillside stay in Vagamon. The staff went above and beyond, and the campfire evening was a highlight. Will definitely return!",
+    text: "Best hillside stay in abcd city. The staff went above and beyond, and the campfire evening was a highlight. Will definitely return!",
     rating: 5,
   },
   {
     name: "Priya & Vikram",
     location: "Chennai",
-    text: "A hidden gem in Vagamon. Clean, cozy rooms with stunning valley views. The guided nature walk was an incredible experience.",
+    text: "A hidden gem in abcd city. Clean, cozy rooms with stunning valley views. The guided nature walk was an incredible experience.",
     rating: 5,
   },
 ];

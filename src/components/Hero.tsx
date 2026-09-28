@@ -64,7 +64,7 @@ export default function Hero() {
           transition={{ delay: 1.2, duration: 1 }}
           className="mt-8 text-base md:text-lg text-white/50 max-w-xl mx-auto leading-relaxed font-light tracking-wide"
         >
-          A serene hill-station retreat nestled in the misty meadows of Vagamon,
+          A serene hill-station retreat nestled in the misty meadows of abcd city,
           Kerala — where luxury meets nature.
         </motion.p>
 

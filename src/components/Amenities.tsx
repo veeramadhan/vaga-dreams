@@ -7,7 +7,7 @@ const amenities = [
   { icon: "🍽️", title: "Restaurant", desc: "Regional & continental cuisine with fresh local ingredients" },
   { icon: "🔥", title: "Campfire Area", desc: "Evening bonfires under the stars with music and snacks" },
   { icon: "🥾", title: "Nature Walks", desc: "Guided treks through tea estates and pine forests" },
-  { icon: "🚐", title: "Transport", desc: "On-request transport to Vagamon Pine Forest & Kurisumala" },
+  { icon: "🚐", title: "Transport", desc: "On-request transport to abcd city Pine Forest & Kurisumala" },
   { icon: "🌿", title: "Landscaped Gardens", desc: "Beautifully maintained gardens for peaceful strolls" },
   { icon: "☕", title: "Tea Lounge", desc: "Freshly brewed local tea with panoramic mountain views" },
   { icon: "📶", title: "Free Wi-Fi", desc: "Stay connected with complimentary high-speed internet" },

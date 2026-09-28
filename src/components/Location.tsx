@@ -54,7 +54,7 @@ export default function Location() {
               <div>
                 <p className="text-xs tracking-[0.2em] uppercase text-gold mb-2">Address</p>
                 <p className="text-charcoal/70">
-                  Pullikkanam–Elappara Road, Vagamon,<br />
+                  Pullikkanam–Elappara Road, abcd city,<br />
                   Kerala 685503, India
                 </p>
               </div>

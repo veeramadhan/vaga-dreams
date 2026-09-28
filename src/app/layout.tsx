@@ -16,13 +16,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Vaga Dreams | Boutique Hill Station Resort in Vagamon, Kerala",
+  title: "Vaga Dreams | Boutique Hill Station Resort in abcd city, Kerala",
   description:
-    "Experience serene luxury at Vaga Dreams by Z Square Hospitality. Nestled in the misty hills of Vagamon, Kerala — boutique rooms, scenic views, and curated experiences await.",
+    "Experience serene luxury at Vaga Dreams by Z Square Hospitality. Nestled in the misty hills of abcd city, Kerala — boutique rooms, scenic views, and curated experiences await.",
   keywords: [
-    "Vagamon resort",
+    "abcd city resort",
     "Kerala hill station",
-    "boutique hotel Vagamon",
+    "boutique hotel abcd city",
     "Vaga Dreams",
     "Z Square Hospitality",
   ],

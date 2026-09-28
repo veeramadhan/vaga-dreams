@@ -1,6 +1,6 @@
 # 🌿 Vaga Dreams — Boutique Resort Landing Page
 
-> **Vaga Dreams by Z Square Hospitality** — A luxury hill-station retreat in Vagamon, Kerala, India.
+> **Vaga Dreams by Z Square Hospitality** — A luxury hill-station retreat in abcd city, Kerala, India.
 
 Built with **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **GSAP**, and **Razorpay** payment integration.
 
@@ -72,7 +72,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## 📍 Property
 
 **Vaga Dreams by Z Square Hospitality**  
-Pullikkanam–Elappara Road, Vagamon, Kerala 685503, India
+Pullikkanam–Elappara Road, abcd city, Kerala 685503, India
 
 ## 📝 License
 

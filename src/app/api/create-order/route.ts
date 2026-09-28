@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
-import Razorpay from "razorpay";
+// import Razorpay from "razorpay";
 
-const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID || "",
-  key_secret: process.env.RAZORPAY_KEY_SECRET || "",
-});
+// const razorpay = new Razorpay({
+//   key_id: process.env.RAZORPAY_KEY_ID || "",
+//   key_secret: process.env.RAZORPAY_KEY_SECRET || "",
+// });
 
 const roomPrices: Record<string, number> = {
   "misty-deluxe": 3499,
@@ -18,6 +18,7 @@ export async function POST(req: Request) {
     const { room, checkin, checkout } = body;
 
     const pricePerNight = roomPrices[room] || 3499;
+
     const nights = Math.max(
       1,
       Math.ceil(
@@ -25,24 +26,34 @@ export async function POST(req: Request) {
           (1000 * 60 * 60 * 24)
       )
     );
-    const amount = pricePerNight * nights * 100; // Razorpay expects paise
 
-    const order = await razorpay.orders.create({
+    const amount = pricePerNight * nights * 100;
+
+    // Razorpay integration will be implemented later.
+    // const order = await razorpay.orders.create({
+    //   amount,
+    //   currency: "INR",
+    //   receipt: `vd_${Date.now()}`,
+    //   notes: {
+    //     room,
+    //     checkin,
+    //     checkout,
+    //     name: body.name,
+    //     email: body.email,
+    //   },
+    // });
+
+    return NextResponse.json({
+      success: true,
       amount,
-      currency: "INR",
-      receipt: `vd_${Date.now()}`,
-      notes: {
-        room,
-        checkin,
-        checkout,
-        name: body.name,
-        email: body.email,
-      },
+      room,
+      checkin,
+      checkout,
+      nights,
     });
-
-    return NextResponse.json(order);
   } catch (error) {
-    console.error("Razorpay order error:", error);
+    console.error("Create order error:", error);
+
     return NextResponse.json(
       { error: "Failed to create order" },
       { status: 500 }
